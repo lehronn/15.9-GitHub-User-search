@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	font-family: 'Khand', sans-serif;
+}
+
+.app {
+	text-align: center;
+}
+
+.hero {
+	background: url(https://static.pexels.com/photos/296881/pexels-photo-296881.jpeg) no-repeat;
+	background-size: 100vw;
+	width: 100vw;
+	height: 350px;
+	margin-bottom: 20px;
+	color: white;
+	font-weight: 700;
+}
+
+.searchForm {
+	text-align: center;
+	background: rgba(0,0,0,0.35);
+	width: 235px;
+	height: 70px;
+	margin: auto;
+	position: relative;
+	top: 50%;
+	padding: 20px;
+	border: 1px black solid;
+	border-radius: 5px;
+}
+
+.searchForm input {
+	border-radius: 5px;
+}
+
+.searchResult {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 80vw;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.user {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: black;
+	color: white;
+	padding: 2px;
+	margin: 20px;
+	transition: background-color .7s;
+}
+
+.user:hover {
+	background-color: rgba(0,0,0,0.4);
+}
+
+.user img {
+	margin: auto;
+	text-align: center;
+}
+
+.user a {
+	color: white;
+	text-decoration-style: none;
+	text-decoration: none;
+	padding: 10px;
+}
