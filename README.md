@@ -4,6 +4,8 @@ GitHub User Search App based on JavaScript, ES6 and GitHub API.
 
 ## Commands
 
+`npm install` to install dependencies
+
 `npm build` to build distribution version, babel required.
 
 ## Babel dependencies
